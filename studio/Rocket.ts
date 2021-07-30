@@ -8,7 +8,7 @@ export class Rocket {
     cargoItems: Cargo[] = [];
     astronauts: Astronaut[] = [];
     
-    consructor(name: string, totalCapacityKg:number) {
+    consructor(name: string, totalCapacityKg: number) {
         this.name = name;
         this.totalCapacityKg = totalCapacityKg;
     }
