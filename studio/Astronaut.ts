@@ -2,10 +2,10 @@ import { Payload } from './Payload';
 
 export class Astronaut implements Payload{
 
-    mass: number
+    massKg: number
     name: string
-constructor(mass: number, name: string){
-    this.mass =  mass
+constructor(massKg: number, name: string){
+    this.massKg =  massKg
     this.name = name
     }
 }
